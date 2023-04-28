@@ -63,7 +63,7 @@ type ButtonVariant = NonNullable<ButtonProps["variant"]>;
 
 const classByVariant: Record<ButtonVariant, string> = {
   primary: "border-transparent bg-primary text-white",
-  outline: "border-brand-500 bg-default text-purple-500 bg-opacity-0 hover:bg-opacity-25 active:bg-opacity-50",
+  outline: "border-blue-500 bg-default text-purple-500 bg-opacity-0 hover:bg-opacity-25 active:bg-opacity-50",
   secondary: "border-primary bg-default text-primary",
   error: "border-transparent bg-red-500 text-white hover:bg-red-800",
 };
